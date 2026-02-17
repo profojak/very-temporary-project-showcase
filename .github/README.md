@@ -29,6 +29,18 @@ Russian roulette sample rejection.
 Multiple importance sampling to balance light and BRDF cosine sampling.
 Importance sampling of environment maps.
 
+<br>
+<div align="center">
+  <a href="/graphics/Fluid%20Simulation/">
+    <img src="/graphics/Fluid Simulation/images/thumbnail.png" alt="Fluid Simulation Thumbnail">
+  </a>
+</div>
+
+Interactive fluid simulation using smoothed particle hydrodynamics numerical solver.
+Solid particle simulation space boundaries.
+Efficient neighbor search via uniform grid sorting.
+Support for multi-threaded, GPU accelerated, and half-baked distributed workloads using OpenMP, CUDA, and MPI.
+
 ## Games
 
 ## Other Stuff
