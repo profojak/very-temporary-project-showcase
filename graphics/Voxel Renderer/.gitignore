@@ -1,0 +1,5 @@
+.vs/
+x64/
+VoxelRendererProject/x64/
+VoxelRendererProject/*.vcxproj.filters
+VoxelRendererProject/*.vcxproj.user
