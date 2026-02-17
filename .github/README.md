@@ -19,8 +19,8 @@
 ## Computer Graphics
 
 <div align="center">
-  <a href="./graphics/Path%20Tracer/">
-    <img src="./graphics/Path Tracer/images/thumbnail.png" alt="Path Tracer Thumbnail">
+  <a href="/graphics/Path%20Tracer/">
+    <img src="/graphics/Path Tracer/images/thumbnail.png" alt="Path Tracer Thumbnail">
   </a>
 </div>
 
