@@ -1,0 +1,11 @@
+debug
+release
+fluid
+subprojects/packagecache
+subprojects/nlohmann_json-*
+subprojects/glew-*
+subprojects/glm-*
+subprojects/SDL2-*
+.vs
+x64
+*.vcxproj.user
