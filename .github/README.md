@@ -41,6 +41,19 @@ Solid particle simulation space boundaries.
 Efficient neighbor search via uniform grid sorting.
 Support for multi-threaded, GPU accelerated, and half-baked distributed workloads using OpenMP, CUDA, and MPI.
 
+<br>
+<div align="center">
+  <a href="/graphics/KD-tree/">
+    <img src="/graphics/KD-tree/images/thumbnail.png" alt="KD-tree Thumbnail">
+  </a>
+</div>
+
+kd-tree for ray tracing.
+Surface area heuristic cost model with single-pass binning for finding the minimum cost split plane.
+Clipping of triangles straddling the splitting plane.
+Pruning of empty child nodes.
+Stack-based recursive ray traversal.
+
 ## Games
 
 ## Other Stuff
