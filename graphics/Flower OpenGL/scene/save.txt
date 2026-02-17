@@ -1,0 +1,23 @@
+t 1.8 0.8 table
+s 0.2 0.6 red
+v bronze
+f bergenia
+f crocus
+s 0.35 0.2 blue
+v egypt
+f geranium
+s 0.6 0.3 white
+v porcelain
+s 0.9 0.55 gray
+v japan
+f hibiscous
+f lilies
+s 1.05 0.2 yellow
+s 1.3 0.25 black
+v terracota
+f rose
+s 1.55 0.45 red
+v porcelain
+f sunflower
+b red
+l 0.90 lamp

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "profojak", "profojak.vcxproj", "{D6D0C947-BB51-43B9-AA23-72866246E97E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6D0C947-BB51-43B9-AA23-72866246E97E}.Debug|x86.ActiveCfg = Debug|Win32
+		{D6D0C947-BB51-43B9-AA23-72866246E97E}.Debug|x86.Build.0 = Debug|Win32
+		{D6D0C947-BB51-43B9-AA23-72866246E97E}.Release|x86.ActiveCfg = Release|Win32
+		{D6D0C947-BB51-43B9-AA23-72866246E97E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF077CC9-A2D3-4131-AB23-E8526D405137}
+	EndGlobalSection
+EndGlobal
