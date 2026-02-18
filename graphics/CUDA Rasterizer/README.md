@@ -9,12 +9,12 @@ Bachelor thesis supervised by [Jiří Bittner](https://usermap.cvut.cz/profile/6
 You can read their reviews on [the public thesis webpage](https://dspace.cvut.cz/entities/publication/47e89c7e-b645-4054-a292-5c85c7f9ff7e).
 I was awarded the B grade.
 
-![1](images/1.png)
+![1](images/1.jpg)
 
-![2](images/2.png)
+![2](images/2.jpg)
 
-![3](images/3.png)
+![3](images/3.jpg)
 
-![4](images/4.png)
+![4](images/4.jpg)
 
-![5](images/5.png)
+![5](images/5.jpg)
