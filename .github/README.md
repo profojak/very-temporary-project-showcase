@@ -179,4 +179,41 @@ Dungeon-crawler game jam game with a triangular grid for movement.
 
 ## Other Stuff
 
+<div align="center">
+  <a href="/others/Vector/">
+    <img src="/others/Vector/images/thumbnail.png" alt="Vector Thumbnail">
+  </a>
+</div>
+
+Custom modern-C++ vector implementation.
+Small vector optimization.
+Exception safety and proper object lifecycle management.
+Alignment guarantee for the internal stack buffer.
+Efficient vector swaps.
+
+<br>
+<div align="center">
+  <a href="/others/Risc-V/">
+    <img src="/others/Risc-V/images/thumbnail.png" alt="Risc-V Thumbnail">
+  </a>
+</div>
+
+32-bit single-cycle RISC-V processor.
+Hardware description for the architecture, memory components, and a comprehensive testbench.
+Implements a subset of RISC-V ISA, including load/store word, branching, and jump and link.
+Runs C!
+Beautiful (pls don't judge me) ASCII-art diagram.
+
+<br>
+<div align="center">
+  <a href="/others/ap8/">
+    <img src="/others/ap8/images/thumbnail.png" alt="ap8 Thumbnail">
+  </a>
+</div>
+
+8-bit music sequencer built for the ARM-based MicroZed educational board.
+Creates, edits, and plays back musical sequences.
+Interacts directly with LCD, LEDs, and knobs via physical address mapping.
+Developed entirely remotely during the covid times thanks to SSH, video live-streaming, and servos to rotate the knobs (big shoutout to the teacher!).
+
 <!-- Let's see if I get admitted into the Camp! Wish me luck!!! --------------->
