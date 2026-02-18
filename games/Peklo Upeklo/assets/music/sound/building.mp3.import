@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/building.mp3-61d193e97f35c6ff841b1ce1eb911b8b.mp3str"
+
+[deps]
+
+source_file="res://assets/music/sound/building.mp3"
+dest_files=[ "res://.import/building.mp3-61d193e97f35c6ff841b1ce1eb911b8b.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/pripaliliepic.mp3-0191ddc867f65037f8b85380e8526477.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/epicke/pripaliliepic.mp3"
+dest_files=[ "res://.import/pripaliliepic.mp3-0191ddc867f65037f8b85380e8526477.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

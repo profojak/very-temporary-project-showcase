@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/male_falling.mp3-b7154c1a9c3db9ad689ef1265cd8ec09.mp3str"
+
+[deps]
+
+source_file="res://assets/music/male_falling.mp3"
+dest_files=[ "res://.import/male_falling.mp3-b7154c1a9c3db9ad689ef1265cd8ec09.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

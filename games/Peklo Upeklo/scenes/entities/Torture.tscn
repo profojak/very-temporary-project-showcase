@@ -1,0 +1,87 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://scenes/entities/Torture.gd" type="Script" id=1]
+[ext_resource path="res://assets/entities/tortures/LustParticle.png" type="Texture" id=2]
+[ext_resource path="res://assets/entities/tiles/Up.png" type="Texture" id=3]
+[ext_resource path="res://assets/entities/tiles/Right.png" type="Texture" id=4]
+[ext_resource path="res://assets/entities/tiles/Down.png" type="Texture" id=5]
+[ext_resource path="res://assets/entities/tiles/Left.png" type="Texture" id=6]
+[ext_resource path="res://assets/entities/tiles/Base.png" type="Texture" id=7]
+[ext_resource path="res://assets/entities/tortures/Lust.png" type="Texture" id=8]
+
+[sub_resource type="Curve" id=1]
+_data = [ Vector2( 0.0184502, 0.936364 ), 0.0, 0.0, 0, 0, Vector2( 1, 0.0545454 ), -3.69546, 0.0, 0, 0 ]
+
+[node name="Torture" type="Node2D" groups=["Torture"]]
+script = ExtResource( 1 )
+tracks_max = 2
+
+[node name="Sprite" type="Sprite" parent="."]
+rotation = 3.14159
+z_index = 20
+texture = ExtResource( 8 )
+
+[node name="Parent" type="Node2D" parent="."]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Base" type="Sprite" parent="Parent"]
+z_index = 15
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Up" type="Sprite" parent="Parent"]
+visible = false
+z_index = 15
+texture = ExtResource( 3 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Right" type="Sprite" parent="Parent"]
+visible = false
+z_index = 15
+texture = ExtResource( 4 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Down" type="Sprite" parent="Parent"]
+visible = false
+z_index = 15
+texture = ExtResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Left" type="Sprite" parent="Parent"]
+visible = false
+z_index = 15
+texture = ExtResource( 6 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+rotation = 3.14159
+z_index = 10
+emitting = false
+amount = 20
+lifetime = 0.4
+one_shot = true
+explosiveness = 0.68
+texture = ExtResource( 2 )
+emission_shape = 2
+emission_rect_extents = Vector2( 8, 1 )
+direction = Vector2( 0, 1 )
+spread = 0.0
+gravity = Vector2( 0, 0 )
+initial_velocity = 40.0
+initial_velocity_random = 0.5
+linear_accel = -57.75
+linear_accel_random = 0.1
+scale_amount_random = 1.0
+scale_amount_curve = SubResource( 1 )

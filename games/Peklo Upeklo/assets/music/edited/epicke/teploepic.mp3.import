@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/teploepic.mp3-ee27df8c1740f87a521b6506a2d3b721.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/epicke/teploepic.mp3"
+dest_files=[ "res://.import/teploepic.mp3-ee27df8c1740f87a521b6506a2d3b721.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

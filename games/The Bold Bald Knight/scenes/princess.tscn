@@ -1,0 +1,52 @@
+[gd_scene load_steps=6 format=3 uid="uid://b0sqxdpbwqe3"]
+
+[ext_resource type="Texture2D" uid="uid://dxeb1mluf0o8k" path="res://sprites/princess/princess_greet.png" id="1_6t68o"]
+[ext_resource type="Script" uid="uid://dy48kru1fuxen" path="res://scripts/princess.gd" id="2_h8nea"]
+[ext_resource type="FontFile" uid="uid://3deahq4a1mkx" path="res://fonts/BBSesque.ttf" id="3_h8nea"]
+[ext_resource type="Texture2D" uid="uid://d1hahbjtosvrs" path="res://sprites/princess/princess_banner.png" id="4_rl5q2"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_rl5q2"]
+font = ExtResource("3_h8nea")
+font_size = 64
+
+[node name="Princess" type="Sprite3D"]
+transform = Transform3D(0.32008898, 0, 0, 0, 0.32008898, 0, 0, 0, 1, 0, 0, 0)
+texture = ExtResource("1_6t68o")
+script = ExtResource("2_h8nea")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -20.0
+offset_top = -40.0
+offset_right = 20.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Ribbon" type="TextureRect" parent="CanvasLayer/Control"]
+layout_mode = 0
+offset_left = -567.0
+offset_top = 24.0
+offset_right = 605.0
+offset_bottom = 371.0
+scale = Vector2(1, 1.04)
+texture = ExtResource("4_rl5q2")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="CanvasLayer/Control"]
+layout_mode = 0
+offset_left = -422.0
+offset_top = -154.0
+offset_right = 459.0
+offset_bottom = -15.0
+label_settings = SubResource("LabelSettings_rl5q2")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+text_overrun_behavior = 2

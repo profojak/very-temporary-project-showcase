@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/burtikyepic.mp3-23ee5e54f776192122f59b1a94742300.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/epicke/burtikyepic.mp3"
+dest_files=[ "res://.import/burtikyepic.mp3-23ee5e54f776192122f59b1a94742300.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

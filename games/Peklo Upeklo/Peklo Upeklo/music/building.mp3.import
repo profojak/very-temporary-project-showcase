@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/building.mp3-1e4e10573ba998169c45baf8bb6fb1b5.mp3str"
+
+[deps]
+
+source_file="res://Peklo Upeklo/music/building.mp3"
+dest_files=[ "res://.import/building.mp3-1e4e10573ba998169c45baf8bb6fb1b5.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

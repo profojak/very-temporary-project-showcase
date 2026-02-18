@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/rizer2.mp3-9745b6b53f92227b2469f3fc22ce939c.mp3str"
+
+[deps]
+
+source_file="res://assets/music/new_sounds/rizer2.mp3"
+dest_files=[ "res://.import/rizer2.mp3-9745b6b53f92227b2469f3fc22ce939c.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

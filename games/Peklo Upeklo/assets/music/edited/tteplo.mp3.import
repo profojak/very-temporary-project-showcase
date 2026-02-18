@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/tteplo.mp3-282ad431f272b4501da998469d738bee.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/tteplo.mp3"
+dest_files=[ "res://.import/tteplo.mp3-282ad431f272b4501da998469d738bee.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

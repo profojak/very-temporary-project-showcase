@@ -1,0 +1,68 @@
+[gd_scene load_steps=9 format=3 uid="uid://fgegla2d2due"]
+
+[ext_resource type="Script" uid="uid://ccytu280b22sa" path="res://scripts/archer.gd" id="1_cctdm"]
+[ext_resource type="Texture2D" uid="uid://cxqnxabs8bexd" path="res://sprites/archer/archer_idle_1.png" id="1_jggnj"]
+[ext_resource type="Script" uid="uid://c2qng0buv2tau" path="res://scripts/archer_sprite.gd" id="2_b0l3x"]
+[ext_resource type="Texture2D" uid="uid://dcvcbpetsgkal" path="res://sprites/archer/archer_idle_2.png" id="3_orquw"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_jggnj"]
+height = 1.9
+
+[sub_resource type="Animation" id="Animation_ejvcm"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("1_jggnj")]
+}
+
+[sub_resource type="Animation" id="Animation_cctdm"]
+resource_name = "idle"
+length = 2.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [ExtResource("1_jggnj"), ExtResource("3_orquw")]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_c85qa"]
+_data = {
+&"RESET": SubResource("Animation_ejvcm"),
+&"idle": SubResource("Animation_cctdm")
+}
+
+[node name="Archer" type="CharacterBody3D" groups=["enemy"]]
+script = ExtResource("1_cctdm")
+
+[node name="ArcherCollider" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9667969, 0)
+shape = SubResource("CapsuleShape3D_jggnj")
+
+[node name="ArcherSprite" type="Sprite3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0.014380306, 1.2823024, 0.001005888)
+billboard = 2
+alpha_cut = 2
+texture_filter = 0
+texture = ExtResource("1_jggnj")
+script = ExtResource("2_b0l3x")
+
+[node name="ArcherAnimation" type="AnimationPlayer" parent="ArcherSprite"]
+libraries = {
+&"": SubResource("AnimationLibrary_c85qa")
+}
+autoplay = "idle"

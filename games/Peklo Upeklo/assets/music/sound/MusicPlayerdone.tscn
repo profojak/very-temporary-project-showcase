@@ -1,0 +1,300 @@
+[gd_scene load_steps=55 format=2]
+
+[ext_resource path="res://addons/mixing-desk/music/containers/core_cont.gd" type="Script" id=1]
+[ext_resource path="res://assets/music/edited/uaaaa.mp3" type="AudioStream" id=2]
+[ext_resource path="res://assets/music/main.mp3" type="AudioStream" id=3]
+[ext_resource path="res://assets/music/cream1.mp3" type="AudioStream" id=4]
+[ext_resource path="res://assets/music/male_falling.mp3" type="AudioStream" id=5]
+[ext_resource path="res://assets/music/edited/epicke/nevinenepic.mp3" type="AudioStream" id=6]
+[ext_resource path="res://assets/music/edited/epicke/mamiiepic.mp3" type="AudioStream" id=7]
+[ext_resource path="res://assets/music/bridge.mp3" type="AudioStream" id=8]
+[ext_resource path="res://addons/mixing-desk/music/mixing_desk_music.gd" type="Script" id=9]
+[ext_resource path="res://addons/mixing-desk/music/song.gd" type="Script" id=10]
+[ext_resource path="res://assets/music/edited/epicke/praceepic.mp3" type="AudioStream" id=11]
+[ext_resource path="res://scenes/MusicPlayer.gd" type="Script" id=12]
+[ext_resource path="res://assets/music/edited/epicke/dovolujeteepic.mp3" type="AudioStream" id=13]
+[ext_resource path="res://assets/music/edited/epicke/neodstoupimepic.mp3" type="AudioStream" id=14]
+[ext_resource path="res://assets/music/pabambam.mp3" type="AudioStream" id=15]
+[ext_resource path="res://assets/music/sound/building.mp3" type="AudioStream" id=16]
+[ext_resource path="res://assets/music/edited/epicke/nechmeepic.mp3" type="AudioStream" id=17]
+[ext_resource path="res://assets/music/edited/mamiiii.mp3" type="AudioStream" id=18]
+[ext_resource path="res://assets/music/edited/tteplo.mp3" type="AudioStream" id=19]
+[ext_resource path="res://assets/music/edited/epicke/prosimneepic.mp3" type="AudioStream" id=20]
+[ext_resource path="res://assets/music/edited/epicke/certepic.mp3" type="AudioStream" id=21]
+[ext_resource path="res://assets/music/edited/menza.mp3" type="AudioStream" id=22]
+[ext_resource path="res://assets/music/edited/certdluzen.mp3" type="AudioStream" id=23]
+[ext_resource path="res://assets/music/edited/epicke/spaleninaepic.mp3" type="AudioStream" id=24]
+[ext_resource path="res://assets/music/new_sounds/kostel.mp3" type="AudioStream" id=25]
+[ext_resource path="res://assets/music/edited/pekloexistuje.mp3" type="AudioStream" id=26]
+[ext_resource path="res://assets/music/edited/prace.mp3" type="AudioStream" id=27]
+[ext_resource path="res://assets/music/edited/horke.mp3" type="AudioStream" id=28]
+[ext_resource path="res://assets/music/edited/epicke/burtikyepic.mp3" type="AudioStream" id=29]
+[ext_resource path="res://assets/music/edited/epicke/kampanepic.mp3" type="AudioStream" id=30]
+[ext_resource path="res://assets/music/edited/epicke/pravnikepic.mp3" type="AudioStream" id=31]
+[ext_resource path="res://assets/music/edited/epicke/nepatrimepic.mp3" type="AudioStream" id=32]
+[ext_resource path="res://assets/music/edited/epicke/hezkeepic.mp3" type="AudioStream" id=33]
+[ext_resource path="res://assets/music/edited/epicke/existujeepic.mp3" type="AudioStream" id=34]
+[ext_resource path="res://assets/music/new_sounds/rizer2.mp3" type="AudioStream" id=35]
+[ext_resource path="res://assets/music/edited/epicke/menzaepic.mp3" type="AudioStream" id=36]
+[ext_resource path="res://assets/music/edited/epicke/smrdiepic.mp3" type="AudioStream" id=37]
+[ext_resource path="res://assets/music/edited/epicke/nesahejteepic.mp3" type="AudioStream" id=38]
+[ext_resource path="res://assets/music/edited/epicke/nicneviepic.mp3" type="AudioStream" id=39]
+[ext_resource path="res://assets/music/edited/epicke/honzaepic.mp3" type="AudioStream" id=40]
+[ext_resource path="res://assets/music/edited/epicke/nechciepic.mp3" type="AudioStream" id=41]
+[ext_resource path="res://assets/music/edited/epicke/pripaliliepic.mp3" type="AudioStream" id=42]
+[ext_resource path="res://assets/music/edited/epicke/odmenaepic.mp3" type="AudioStream" id=43]
+[ext_resource path="res://assets/music/edited/epicke/teploepic.mp3" type="AudioStream" id=44]
+[ext_resource path="res://assets/music/new_sounds/guitar_fill2.mp3" type="AudioStream" id=45]
+[ext_resource path="res://assets/music/new_sounds/gong.mp3" type="AudioStream" id=46]
+[ext_resource path="res://assets/music/new_sounds/guitar_fill.mp3" type="AudioStream" id=47]
+[ext_resource path="res://assets/music/new_sounds/error.mp3" type="AudioStream" id=48]
+[ext_resource path="res://assets/music/new_sounds/rizer-4.mp3" type="AudioStream" id=49]
+[ext_resource path="res://assets/music/new_sounds/stones.mp3" type="AudioStream" id=50]
+[ext_resource path="res://assets/music/new_sounds/guitar_fill3.mp3" type="AudioStream" id=51]
+[ext_resource path="res://assets/music/new_sounds/rizer1.mp3" type="AudioStream" id=52]
+[ext_resource path="res://assets/music/new_sounds/rizer3.mp3" type="AudioStream" id=53]
+[ext_resource path="res://assets/music/beat.mp3" type="AudioStream" id=54]
+
+[node name="MusicPlayer" type="Node"]
+script = ExtResource( 12 )
+
+[node name="MixingDeskMusic" type="Node" parent="."]
+script = ExtResource( 9 )
+
+[node name="scream_machine" type="Node" parent="MixingDeskMusic"]
+script = ExtResource( 10 )
+tempo = 97
+bars = 1
+beats_in_bar = 1
+
+[node name="CoreContainer" type="Node" parent="MixingDeskMusic/scream_machine"]
+script = ExtResource( 1 )
+
+[node name="scream" type="AudioStreamPlayer" parent="MixingDeskMusic/scream_machine/CoreContainer"]
+stream = ExtResource( 4 )
+volume_db = -80.0
+pitch_scale = 0.66
+
+[node name="scream_drop" type="Node" parent="MixingDeskMusic"]
+script = ExtResource( 10 )
+tempo = 97
+bars = 1
+beats_in_bar = 1
+
+[node name="CoreContainer" type="Node" parent="MixingDeskMusic/scream_drop"]
+script = ExtResource( 1 )
+
+[node name="drop" type="AudioStreamPlayer" parent="MixingDeskMusic/scream_drop/CoreContainer"]
+stream = ExtResource( 5 )
+volume_db = -22.722
+pitch_scale = 1.37
+
+[node name="anxiety" type="Node" parent="MixingDeskMusic"]
+script = ExtResource( 10 )
+tempo = 97
+bars = 2
+beats_in_bar = 4
+
+[node name="CoreContainer" type="Node" parent="MixingDeskMusic/anxiety"]
+script = ExtResource( 1 )
+
+[node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="MixingDeskMusic/anxiety/CoreContainer"]
+stream = ExtResource( 5 )
+volume_db = -27.092
+pitch_scale = 1.24
+
+[node name="break" type="Node" parent="MixingDeskMusic"]
+script = ExtResource( 10 )
+tempo = 97
+bars = 1
+beats_in_bar = 1
+
+[node name="CoreContainer" type="Node" parent="MixingDeskMusic/break"]
+script = ExtResource( 1 )
+
+[node name="MixingDeskMusic2" type="Node" parent="."]
+script = ExtResource( 9 )
+
+[node name="main" type="Node" parent="MixingDeskMusic2"]
+script = ExtResource( 10 )
+tempo = 97
+bars = 8
+beats_in_bar = 4
+
+[node name="CoreContainer" type="Node" parent="MixingDeskMusic2/main"]
+script = ExtResource( 1 )
+
+[node name="main_riff" type="AudioStreamPlayer" parent="MixingDeskMusic2/main/CoreContainer"]
+stream = ExtResource( 3 )
+
+[node name="bridge" type="Node" parent="MixingDeskMusic2"]
+script = ExtResource( 10 )
+tempo = 97
+bars = 4
+beats_in_bar = 4
+
+[node name="CoreContainer" type="Node" parent="MixingDeskMusic2/bridge"]
+script = ExtResource( 1 )
+
+[node name="bridge_riff" type="AudioStreamPlayer" parent="MixingDeskMusic2/bridge/CoreContainer"]
+stream = ExtResource( 8 )
+
+[node name="building_phase" type="Node" parent="MixingDeskMusic2"]
+script = ExtResource( 10 )
+tempo = 97
+bars = 4
+beats_in_bar = 4
+
+[node name="CoreContainer" type="Node" parent="MixingDeskMusic2/building_phase"]
+script = ExtResource( 1 )
+
+[node name="building_riff" type="AudioStreamPlayer" parent="MixingDeskMusic2/building_phase/CoreContainer"]
+stream = ExtResource( 16 )
+
+[node name="drop4" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 22 )
+
+[node name="drop" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 23 )
+
+[node name="drop2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 28 )
+
+[node name="drop3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 18 )
+
+[node name="drop5" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 26 )
+
+[node name="drop7" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 19 )
+
+[node name="drop8" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 2 )
+
+[node name="drop6" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 27 )
+
+[node name="drop9" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 29 )
+
+[node name="drop10" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 21 )
+
+[node name="drop11" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 13 )
+
+[node name="drop12" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 34 )
+
+[node name="drop13" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 33 )
+
+[node name="drop14" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 40 )
+
+[node name="drop15" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 30 )
+
+[node name="drop16" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 7 )
+
+[node name="drop17" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 36 )
+
+[node name="drop18" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 41 )
+
+[node name="drop19" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 17 )
+
+[node name="drop20" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 14 )
+
+[node name="drop21" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 32 )
+
+[node name="drop22" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 38 )
+
+[node name="drop23" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+
+[node name="drop24" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 39 )
+
+[node name="drop25" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 43 )
+
+[node name="drop26" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 11 )
+
+[node name="drop27" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 31 )
+
+[node name="drop28" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 42 )
+
+[node name="drop29" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 20 )
+
+[node name="drop30" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 37 )
+
+[node name="drop31" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 24 )
+
+[node name="drop32" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 44 )
+
+[node name="error" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 48 )
+
+[node name="gong" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 46 )
+volume_db = -4.952
+bus = "master2"
+
+[node name="kostel" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 25 )
+bus = "master2"
+
+[node name="break" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 15 )
+
+[node name="stones" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 50 )
+
+[node name="guitar1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 47 )
+bus = "master3"
+
+[node name="guitar2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 45 )
+bus = "master3"
+
+[node name="guitar3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 51 )
+bus = "master3"
+
+[node name="guitar4" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 52 )
+bus = "master4"
+
+[node name="guitar5" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 35 )
+bus = "master4"
+
+[node name="guitar6" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 53 )
+bus = "master4"
+
+[node name="guitar7" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 49 )
+bus = "master4"
+
+[node name="beat" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 54 )
+bus = "master4"
+
+[connection signal="bar" from="MixingDeskMusic2" to="." method="_on_MixingDeskMusic2_bar"]

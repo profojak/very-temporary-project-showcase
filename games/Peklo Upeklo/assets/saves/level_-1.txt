@@ -1,0 +1,44 @@
+{
+	"items": [
+		["Track",   5],
+		["Lust",     1],
+		["Greed",    1]
+	],
+	"spawn_delay": 2,
+	"spawn_time": 2,
+	"cages": [
+		[6, ["Lust"]],
+		[6, ["Greed"]]
+	],
+	"targets": {
+		"min_sin_punished": [
+			["Lust", 3],
+			["Greed", 3]
+		],
+		"max_sin_failed": [
+			["Lust", 1],
+			["Greed", 3]	
+		]
+	},
+	"disabled_tiles": [
+		[3,3],[3,2],[3,1],[3,0],
+		[4,3],[4,2],[4,1],[4,0],[4,4],
+		[2,3],[1,3],[0,3],
+		[3,4],[2,4],[1,4],[0,4]
+	],
+	"instructions":"Ah, finally a replacement! Good day to you, new devil!
+
+You might be asking how you got here... that should not concern you. I am not the one deciding. Your task is to punish sinful souls entering the hell.
+
+But beware! Do not punish sinners for sins they did not commit! Lucifer will not tolerate this!
+
+Since this is your first day, I will be nice and help you a little. See those stamps on your left? These stamps let you build a torture chamber. These chambers punish the corresponding sin of a sinner.
+
+For starters, you got two different sins that you need to take care off. Plan and build your grandiose track and switch phases in the upper left corner. Then, there will be yet another simple task for you... navigate the cages to their respective tortures by switching junctions.
+
+You can expect:
+6 Lust
+6 Greed
+You need to punish at least:
+3 of each"
+}

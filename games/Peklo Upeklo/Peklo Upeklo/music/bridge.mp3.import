@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/bridge.mp3-347808d7055793faaa50a5bc3e6a48f6.mp3str"
+
+[deps]
+
+source_file="res://Peklo Upeklo/music/bridge.mp3"
+dest_files=[ "res://.import/bridge.mp3-347808d7055793faaa50a5bc3e6a48f6.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

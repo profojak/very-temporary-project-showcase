@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/nepatrimepic.mp3-597b580aaf8a2c7d7584370313b2ecf4.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/epicke/nepatrimepic.mp3"
+dest_files=[ "res://.import/nepatrimepic.mp3-597b580aaf8a2c7d7584370313b2ecf4.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

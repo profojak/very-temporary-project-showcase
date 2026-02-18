@@ -1,0 +1,86 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://addons/mixing-desk/music/song.gd" type="Script" id=2]
+[ext_resource path="res://addons/mixing-desk/music/mixing_desk_music.gd" type="Script" id=3]
+[ext_resource path="res://addons/mixing-desk/music/containers/core_cont.gd" type="Script" id=4]
+[ext_resource path="res://scenes/MusicPlayer.gd" type="Script" id=5]
+[ext_resource path="res://assets/music/pabambam.mp3" type="AudioStream" id=6]
+[ext_resource path="res://assets/music/bridge.mp3" type="AudioStream" id=8]
+[ext_resource path="res://assets/music/cream1.mp3" type="AudioStream" id=9]
+[ext_resource path="res://assets/music/male_falling.mp3" type="AudioStream" id=10]
+[ext_resource path="res://assets/music/sound/building.mp3" type="AudioStream" id=12]
+
+[node name="MusicPlayer" type="Node"]
+script = ExtResource( 5 )
+
+[node name="MixingDeskMusic" type="Node" parent="."]
+script = ExtResource( 3 )
+
+[node name="scream_machine" type="Node" parent="MixingDeskMusic"]
+script = ExtResource( 2 )
+tempo = 97
+bars = 1
+beats_in_bar = 1
+
+[node name="CoreContainer" type="Node" parent="MixingDeskMusic/scream_machine"]
+script = ExtResource( 4 )
+
+[node name="scream" type="AudioStreamPlayer" parent="MixingDeskMusic/scream_machine/CoreContainer"]
+stream = ExtResource( 9 )
+volume_db = -20.571
+pitch_scale = 0.66
+
+[node name="scream_drop" type="Node" parent="MixingDeskMusic"]
+script = ExtResource( 2 )
+tempo = 97
+bars = 1
+beats_in_bar = 1
+
+[node name="CoreContainer" type="Node" parent="MixingDeskMusic/scream_drop"]
+script = ExtResource( 4 )
+
+[node name="drop" type="AudioStreamPlayer" parent="MixingDeskMusic/scream_drop/CoreContainer"]
+stream = ExtResource( 10 )
+volume_db = -22.722
+pitch_scale = 1.37
+
+[node name="break" type="Node" parent="MixingDeskMusic"]
+script = ExtResource( 2 )
+tempo = 97
+bars = 1
+beats_in_bar = 1
+
+[node name="CoreContainer" type="Node" parent="MixingDeskMusic/break"]
+script = ExtResource( 4 )
+
+[node name="break" type="AudioStreamPlayer" parent="MixingDeskMusic/break/CoreContainer"]
+stream = ExtResource( 6 )
+
+[node name="MixingDeskMusic2" type="Node" parent="."]
+script = ExtResource( 3 )
+
+[node name="bridge" type="Node" parent="MixingDeskMusic2"]
+script = ExtResource( 2 )
+tempo = 97
+bars = 4
+beats_in_bar = 4
+
+[node name="CoreContainer" type="Node" parent="MixingDeskMusic2/bridge"]
+script = ExtResource( 4 )
+
+[node name="bridge_riff" type="AudioStreamPlayer" parent="MixingDeskMusic2/bridge/CoreContainer"]
+stream = ExtResource( 8 )
+
+[node name="building_phase" type="Node" parent="MixingDeskMusic2"]
+script = ExtResource( 2 )
+tempo = 97
+bars = 4
+beats_in_bar = 4
+
+[node name="CoreContainer" type="Node" parent="MixingDeskMusic2/building_phase"]
+script = ExtResource( 4 )
+
+[node name="building_riff" type="AudioStreamPlayer" parent="MixingDeskMusic2/building_phase/CoreContainer"]
+stream = ExtResource( 12 )
+
+[connection signal="bar" from="MixingDeskMusic2" to="." method="_on_MixingDeskMusic2_bar"]

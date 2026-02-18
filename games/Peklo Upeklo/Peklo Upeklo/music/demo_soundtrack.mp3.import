@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/demo_soundtrack.mp3-19850eaeff59c0e72ac0c37634e6a4cd.mp3str"
+
+[deps]
+
+source_file="res://Peklo Upeklo/music/demo_soundtrack.mp3"
+dest_files=[ "res://.import/demo_soundtrack.mp3-19850eaeff59c0e72ac0c37634e6a4cd.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

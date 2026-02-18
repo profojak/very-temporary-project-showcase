@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://cnth1v2j68vvx"]
+
+[ext_resource type="Texture2D" uid="uid://d4nf7wghg42pe" path="res://sprites/tree/high_2.png" id="1_iekdm"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_wmt7p"]
+height = 2.77417
+radius = 0.3149414
+
+[node name="Tree" type="Node3D"]
+transform = Transform3D(-1, -1.509958e-07, 4.3711385e-08, 1.509958e-07, -1, -8.742276e-08, 4.37114e-08, -8.7422755e-08, 1, 0, 0, 0)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, -3.821371e-15, 0, -3.821371e-15, 1, 0, 0, 0, 1, 5.0252296e-15, -1.315033, 2.1316282e-14)
+shape = SubResource("CylinderShape3D_wmt7p")
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform3D(3, -1.1464112e-14, 0, -1.1464113e-14, 3, 0, 0, 0, 3, 1.1139554e-06, -7.377393, -6.449521e-07)
+billboard = 2
+texture = ExtResource("1_iekdm")

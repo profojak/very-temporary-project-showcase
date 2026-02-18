@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/pravnikepic.mp3-f3d1070248973808d055abc41e228940.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/epicke/pravnikepic.mp3"
+dest_files=[ "res://.import/pravnikepic.mp3-f3d1070248973808d055abc41e228940.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

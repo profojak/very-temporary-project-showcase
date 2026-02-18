@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/stones.mp3-02d73d68cf8c75363862530eb74b16ad.mp3str"
+
+[deps]
+
+source_file="res://assets/music/new_sounds/stones.mp3"
+dest_files=[ "res://.import/stones.mp3-02d73d68cf8c75363862530eb74b16ad.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

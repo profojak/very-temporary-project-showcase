@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/guitar_fill3.mp3-deb2f21ca4be77d43bb8af8821141ec2.mp3str"
+
+[deps]
+
+source_file="res://assets/music/new_sounds/guitar_fill3.mp3"
+dest_files=[ "res://.import/guitar_fill3.mp3-deb2f21ca4be77d43bb8af8821141ec2.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

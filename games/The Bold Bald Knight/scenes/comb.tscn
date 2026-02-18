@@ -1,0 +1,98 @@
+[gd_scene load_steps=8 format=3 uid="uid://d4ciwyj68lkch"]
+
+[ext_resource type="Texture2D" uid="uid://b1huwdraw0uq1" path="res://sprites/princess/comb.png" id="1_4we4o"]
+[ext_resource type="Script" uid="uid://d6mbwt0gtuvb" path="res://scripts/comb.gd" id="1_rwsrp"]
+[ext_resource type="Texture2D" uid="uid://gwqac500ud4o" path="res://sprites/princess/comb_shadow.png" id="3_evi5y"]
+
+[sub_resource type="Animation" id="Animation_4we4o"]
+resource_name = "wave"
+length = 3.5
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.7333333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 0.24154916, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../Sprite3D:scale")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1.7333333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(2.503644, 2.503644, 0.99999994), Vector3(2.025304, 2.025304, 0.99999994)]
+}
+
+[sub_resource type="Animation" id="Animation_rwsrp"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../Sprite3D:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(2.503644, 2.503644, 0.99999994)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_evi5y"]
+_data = {
+&"RESET": SubResource("Animation_rwsrp"),
+&"wave": SubResource("Animation_4we4o")
+}
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_evi5y"]
+size = Vector3(1, 1.1918945, 1)
+
+[node name="Comb" type="Node3D"]
+script = ExtResource("1_rwsrp")
+
+[node name="Sprite" type="Sprite3D" parent="."]
+billboard = 1
+texture_filter = 0
+texture = ExtResource("1_4we4o")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Sprite"]
+libraries = {
+&"": SubResource("AnimationLibrary_evi5y")
+}
+autoplay = "wave"
+
+[node name="Area3D" type="Area3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1315918, 0)
+shape = SubResource("BoxShape3D_evi5y")
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform3D(2.503644, 0, 0, 0, -1.0943776e-07, -0.99999994, 0, 2.503644, -4.3711385e-08, 0, -0.5796702, 0)
+modulate = Color(1, 1, 1, 0.8980392)
+texture_filter = 0
+texture = ExtResource("3_evi5y")
+
+[connection signal="body_entered" from="Area3D" to="." method="_on_area_3d_body_entered"]

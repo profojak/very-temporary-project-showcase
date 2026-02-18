@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/spaleninaepic.mp3-8d444a1a980d3f77c78588367f0854d6.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/epicke/spaleninaepic.mp3"
+dest_files=[ "res://.import/spaleninaepic.mp3-8d444a1a980d3f77c78588367f0854d6.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

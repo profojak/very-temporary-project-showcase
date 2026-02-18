@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="Animation" id=14]
+resource_name = "highlight"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.001, 0.1, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 0.052556, 0.196146 ),
+"update": 0,
+"values": [ Color( 0.839216, 0.839216, 0.839216, 1 ), Color( 0.839216, 0.839216, 0.839216, 1 ), Color( 1, 1, 1, 1 ), Color( 0.839216, 0.839216, 0.839216, 1 ) ]
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer"]
+anims/highlight = SubResource( 14 )

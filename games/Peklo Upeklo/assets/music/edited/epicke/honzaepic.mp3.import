@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/honzaepic.mp3-dd9fda937f302cdaee377051f4a2d52f.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/epicke/honzaepic.mp3"
+dest_files=[ "res://.import/honzaepic.mp3-dd9fda937f302cdaee377051f4a2d52f.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

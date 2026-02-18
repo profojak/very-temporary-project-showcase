@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/schod.mp3-d96e2b7dcb2226d6f58ff53fa2e5d31a.mp3str"
+
+[deps]
+
+source_file="res://Peklo Upeklo/music/schod.mp3"
+dest_files=[ "res://.import/schod.mp3-d96e2b7dcb2226d6f58ff53fa2e5d31a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

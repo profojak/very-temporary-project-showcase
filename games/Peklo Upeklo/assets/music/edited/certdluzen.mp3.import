@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/certdluzen.mp3-ba9d0bf0c41f50438ebfa7af335236d2.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/certdluzen.mp3"
+dest_files=[ "res://.import/certdluzen.mp3-ba9d0bf0c41f50438ebfa7af335236d2.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

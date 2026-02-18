@@ -1,0 +1,100 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/screen/Background.png" type="Texture" id=1]
+[ext_resource path="res://assets/Bohemian typewriter.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+size = 13
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 2 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( 160, 90 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 14.0
+margin_top = 4.0
+margin_right = 315.0
+margin_bottom = 176.0
+custom_fonts/normal_font = SubResource( 1 )
+text = "		SPECIAL THANKS TO:
+EXTERNAL-VOICELINES:Matěj Konečný
+GUITAR PLAYER:Ondřej Pelikán
+BASS GUITAR PLAYER:Ondřej Pelikán
+ONDRA PLAYER:Basová kytara
+COOPERATION WITH: Moak music
+
+
+
+
+GAME DIRECTOR:Jan Kabíček
+LEAD PRODUCER:Jakub Profota
+CREATIVE DIRECTOR:Ondřej Baštař
+DIRECTOR OF PRODUCT DEVELOPEMENT:Jan Kabíček
+STUDIO HEAD:Jan Kabíček
+ADDITIONAL STUDIO LEADERSHIP:Jakub Profota
+NARATIVE DIRECTOR:Ondřej Baštař
+UI/UX DESIGN LEAD:Ondřej Baštař
+CAMERA DESIGN:Jan Kabíček
+COLLISION DESIGN:Jan Kabíček
+COMBAT DESIGN:Jan Kabíček
+LEVEL DESIGN:Jan Kabíček
+USER RESEARCH:Jan Kabíček
+DESIGN MANAGER:Jan Kabíček
+TECHNICAL DIRECTOR:Jan Kabíček
+GAMEPLAY DIRECTOR:Jakub Profota
+LEAD ENGINE PIPELINE PROGRAMMER:Ondřej Pelikán
+LEAD TECHNICAL ARTIST:Ondřej Baštař
+GAMEPLAY ARCHITECT:Jan Kabíček
+AI LEAD:Jan Kabíček
+GAMEPLAY PROGRAMMING:Ondřej Baštař
+RENDERING PROGRAMMING:Ondřej Pelikán
+TECHNICAL ART:Jan Kabíček
+AUDIO PROGRAMMING:Ondřej Baštař
+DESIGN TOOLS PROGRAMMING:Jakub Profota
+INFRASTRUCTURE PROGRAMMING:Ondřej Baštař
+ADDITIONAL PROGRAMMING LEADESHIP:Jan Kabíček
+SENIOR ENGINEERING MANAGER:Ondřej Pelikán
+ART DIRECTOR:Ondřej Pelikán
+CONCEPT ART LEAD:Jakub Profota
+VISUAL EFFECTS LEAD:Ondřej Baštař
+CHARAKTER ART:Jakub Profota
+ENVIROMENT ART:Jan Kabíček
+EXTERNAL DEVELOPER:Ondřej Pelikán
+SENIOR STAF PRODUCER:Ondřej Baštař
+SENIOR MANAGER:Jan Kabíček
+CREDITS MANAGER:Jan Kabíček
+QUALITY ASSURANCE:Jakub Profota
+FACILITIES MANAGER:Jan Kabíček
+OFFICE SUPPORT SPECIALISTS:Ondřej Pelikán
+COFFE NON DRINKER:Jakub Profota
+IT ADMINISTRATOR:Jakub Profota
+		CAST
+CAGE1:Jakub Profota
+CAGE2:Jakub Profota
+CAGE3:Jakub Profota
+CAGE4:Jan Kabíček
+CAGE5:Jan Kabíček
+CAGE6:Jan Kabíček
+CAGEN WHERE N IS <7;INF):Jakub Profota
+PEPAAAA:Pepee
+YEA JUST SO YOU KNOW WHEN YOU PRESS K YOU SKIP A LEVEL XD
+
+MEDIC:Ondřej Baštař
+PRO TOOL OPERATOR:Jan Kabíček
+LIBRARIAN:Ondřej Pelikán
+ADDITIONAL MUSIC:Ondřej Baštař
+PERFORMER:Ondřej Baštař
+DIALOGUE DESIGNER:Ondřej Baštař
+RECORDING ENGINEER:Jan Kabíček
+LEAD HOUSE DESIGNER:Ondřej Baštař
+CASTING COORDINATOR:Jakub Profota
+
+"

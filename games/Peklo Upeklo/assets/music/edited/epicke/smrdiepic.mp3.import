@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/smrdiepic.mp3-d8d5fef4b0812103c813c3f97ef4c1e0.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/epicke/smrdiepic.mp3"
+dest_files=[ "res://.import/smrdiepic.mp3-d8d5fef4b0812103c813c3f97ef4c1e0.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,164 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://assets/screen/Background.png" type="Texture" id=1]
+[ext_resource path="res://assets/Font.tres" type="DynamicFont" id=2]
+[ext_resource path="res://assets/screen/MainMenuNormal.png" type="Texture" id=3]
+[ext_resource path="res://assets/screen/MainMenuPressed.png" type="Texture" id=4]
+[ext_resource path="res://scenes/menu/MainMenu.gd" type="Script" id=5]
+[ext_resource path="res://assets/screen/Logo.png" type="Texture" id=6]
+[ext_resource path="res://assets/screen/MainMenuBackground.png" type="Texture" id=7]
+[ext_resource path="res://assets/screen/MainMenuHover.png" type="Texture" id=8]
+[ext_resource path="res://assets/screen/BackgroundBackground.png" type="Texture" id=9]
+[ext_resource path="res://assets/music/sound/fire.mp3" type="AudioStream" id=10]
+
+[sub_resource type="Animation" id=1]
+resource_name = "Logo"
+length = 20.0
+loop = true
+step = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rotation_degrees")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 5, 10, 15 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ -8.0, 8.0, -8.0, 8.0 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:scale")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 7, 17 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1.35, 1.35 ) ]
+}
+
+[sub_resource type="Animation" id=2]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rotation_degrees")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+
+[node name="MainMenu" type="Node2D"]
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( 160, 90 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Sprite" type="Sprite" parent="Background"]
+position = Vector2( -87, -22 )
+texture = ExtResource( 9 )
+
+[node name="MainMenuBackground" type="Sprite" parent="."]
+position = Vector2( 73, 137 )
+texture = ExtResource( 7 )
+
+[node name="Start" type="TextureButton" parent="."]
+margin_top = 104.0
+margin_right = 134.0
+margin_bottom = 126.0
+rect_pivot_offset = Vector2( 34, 24 )
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 8 )
+
+[node name="Label" type="Label" parent="Start"]
+margin_left = 13.0
+margin_top = 3.0
+margin_right = 133.0
+margin_bottom = 19.0
+custom_fonts/font = ExtResource( 2 )
+text = "Start"
+align = 1
+valign = 1
+
+[node name="Credits" type="TextureButton" parent="."]
+margin_top = 124.0
+margin_right = 134.0
+margin_bottom = 146.0
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 8 )
+
+[node name="Label" type="Label" parent="Credits"]
+margin_left = 13.0
+margin_top = 3.0
+margin_right = 133.0
+margin_bottom = 19.0
+custom_fonts/font = ExtResource( 2 )
+text = "Credits"
+align = 1
+valign = 1
+
+[node name="Quit" type="TextureButton" parent="."]
+margin_top = 144.0
+margin_right = 134.0
+margin_bottom = 166.0
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 8 )
+
+[node name="Label" type="Label" parent="Quit"]
+margin_left = 13.0
+margin_top = 3.0
+margin_right = 133.0
+margin_bottom = 19.0
+custom_fonts/font = ExtResource( 2 )
+text = "Quit"
+align = 1
+valign = 1
+
+[node name="Logo" type="Sprite" parent="."]
+position = Vector2( 73, 54 )
+texture = ExtResource( 6 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Logo"]
+autoplay = "Logo"
+anims/Logo = SubResource( 1 )
+anims/RESET = SubResource( 2 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 10 )
+volume_db = 9.614
+autoplay = true
+bus = "master3"
+
+[connection signal="pressed" from="Start" to="." method="_on_Start_pressed"]
+[connection signal="pressed" from="Credits" to="." method="_on_Credits_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]

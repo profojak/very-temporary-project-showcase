@@ -1,0 +1,46 @@
+{
+	"items": [
+		["Track",   6],
+		["Lust",     1],
+		["Greed",    1],
+		["Wrath",    1],
+		["Gluttony",     1],
+
+	],
+	"spawn_delay": 2,
+	"spawn_time": 2,
+	"cages": [
+		[6, 	["Lust"]],
+		[6, 	["Greed"]],
+		[6,	["Gluttony"]],
+		[6,    	["Wrath"]]
+	],
+	"targets": {
+		"min_sin_punished": [
+			["Lust", 3],
+			["Greed", 3],
+			["Gluttony", 3],
+			["Wrath", 3],
+		],
+		"max_sin_failed": []
+	},
+	"disabled_tiles": [
+		[3,3],[3,2],[3,1],[3,0],
+		[4,3],[4,2],[4,1],[4,0],[4,4],
+		[2,3],[1,3],[0,3],
+		[3,4],[2,4],[1,4],[0,4]
+	],
+	"instructions":"Greeting devil!
+
+This is my last day here helping you...
+
+As you could already check when you got here, there are more stamps for you. I hope you know what that means. Work hard and don't make any mistakes. The hell never forgets. Perhaps, we shall meet again some day.
+
+You can expect:
+6 Lust
+6 Greed
+6 Gluttony
+6 Wrath
+You need to punish at least:
+3 of each"
+}

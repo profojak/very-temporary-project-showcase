@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/menzaepic.mp3-3a4528d2ca5efca4f766ddcb3e51a85e.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/epicke/menzaepic.mp3"
+dest_files=[ "res://.import/menzaepic.mp3-3a4528d2ca5efca4f766ddcb3e51a85e.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

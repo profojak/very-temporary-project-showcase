@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/thereminm.mp3-425c2a8f316f01cfbf07ff40f8ebf2bf.mp3str"
+
+[deps]
+
+source_file="res://assets/music/thereminm.mp3"
+dest_files=[ "res://.import/thereminm.mp3-425c2a8f316f01cfbf07ff40f8ebf2bf.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

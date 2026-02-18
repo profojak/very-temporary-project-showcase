@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Game</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Building\Building.csproj" />
+    <ProjectReference Include="..\ResourceItem\ResourceItem.csproj" />
+    <ProjectReference Include="..\Tile\Tile.csproj" />
+  </ItemGroup>
+
+</Project>

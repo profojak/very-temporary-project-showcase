@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/hezkeepic.mp3-575a47c9f2724c432eda5d378317d88b.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/epicke/hezkeepic.mp3"
+dest_files=[ "res://.import/hezkeepic.mp3-575a47c9f2724c432eda5d378317d88b.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

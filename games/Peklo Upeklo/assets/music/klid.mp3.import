@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/klid.mp3-8fd93ee1f8dc70aaaa4018a135bbbc67.mp3str"
+
+[deps]
+
+source_file="res://assets/music/klid.mp3"
+dest_files=[ "res://.import/klid.mp3-8fd93ee1f8dc70aaaa4018a135bbbc67.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

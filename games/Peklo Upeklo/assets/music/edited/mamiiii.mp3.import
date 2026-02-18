@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/mamiiii.mp3-24005740bc382dd486e8ad34654c52da.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/mamiiii.mp3"
+dest_files=[ "res://.import/mamiiii.mp3-24005740bc382dd486e8ad34654c52da.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

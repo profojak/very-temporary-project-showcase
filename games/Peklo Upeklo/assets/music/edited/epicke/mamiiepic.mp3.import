@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/mamiiepic.mp3-7fcf02ba4fdf7f5919ac56248e250c60.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/epicke/mamiiepic.mp3"
+dest_files=[ "res://.import/mamiiepic.mp3-7fcf02ba4fdf7f5919ac56248e250c60.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

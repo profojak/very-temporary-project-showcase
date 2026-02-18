@@ -1,0 +1,88 @@
+﻿<Window x:Class="Game.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:Game.ViewModels"
+        xmlns:ri="clr-namespace:ResourceItem;assembly=ResourceItem"
+        xmlns:t="clr-namespace:Tile;assembly=Tile"
+        xmlns:b="clr-namespace:Building;assembly=Building"
+        xmlns:img="clr-namespace:Images;assembly=Images"
+        xmlns:local="clr-namespace:Game"
+        Title="Game" Height="600" Width="1024">
+
+    <!-- Converter loading Image source from relative path (Logo.png) -->
+    <Window.Resources>
+        <img:IconPathConverter x:Key="iconPathConverter"/>
+    </Window.Resources>
+
+    <!-- Setting main window's data context to MainViewModel class -->
+    <Window.DataContext>
+        <vm:MainViewModel/>
+    </Window.DataContext>
+
+    <DockPanel>
+        <!-- Construction menu -->
+        <ListBox DockPanel.Dock="Left" MinWidth="85" MaxHeight="375" Margin="5"
+                 ItemsSource="{Binding Buildings}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <b:Building Type="{Binding Type}" Icon="{Binding Icon}"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        
+        <!-- Resources menu -->
+        <ListBox DockPanel.Dock="Right" MinWidth="85" MaxHeight="375" Margin="5"
+                 ItemsSource="{Binding ResourceItems}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <ri:ResourceItem Type="{Binding Type}" Icon="{Binding Icon}" Count="{Binding Count}"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <!-- Display of elapsed days and a Button to move to the next one -->
+        <StatusBar DockPanel.Dock="Top" Width="220"
+                   BorderBrush="DarkGray" BorderThickness="1" Background="White">
+            <DockPanel Width="212">
+                <Label DockPanel.Dock="Left" Content="{Binding Days}" FontSize="20" FontWeight="Bold"/>
+                <Button DockPanel.Dock="Right" Content="Next Day!" FontSize="20" Padding="5" HorizontalAlignment="Right"
+                        Command="{Binding NextDayCommand}"/>
+            </DockPanel>
+        </StatusBar>
+
+        <!-- Game manual -->
+        <StatusBar DockPanel.Dock="Bottom" Height="90"
+                   BorderBrush="DarkGray" BorderThickness="1" Background="White">
+            <Image Margin="5" Width="70"
+                   DataContext="{Binding ManualIcon}" Source="{Binding Converter={StaticResource iconPathConverter}}"/>
+            <Label Content="{Binding ManualLabel}" FontSize="16"/>
+        </StatusBar>
+
+        <!-- Game board -->
+        <ListBox Width="715" Height="365"
+                 ItemsSource="{Binding Tiles}">
+            <!-- Set WrapPanel to act like a Grid -->
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel Orientation="Horizontal" Width="700" Height="350"/>
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <!-- Changing ItemContainerStyle to remove margins and padding around tiles -->
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <Setter Property="Margin" Value="0"/>
+                    <Setter Property="Padding" Value="0"/>
+                    <Setter Property="Height" Value="70"/>
+                    <Setter Property="Width" Value="70"/>
+                </Style>
+            </ListBox.ItemContainerStyle>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <t:Tile Type="{Binding Type}" Icon="{Binding Icon}"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </DockPanel>
+</Window>

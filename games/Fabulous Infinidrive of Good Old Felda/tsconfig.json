@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "outFile": "cc.js"
+    },
+    "files": [
+        "cc.ts"
+    ]
+}

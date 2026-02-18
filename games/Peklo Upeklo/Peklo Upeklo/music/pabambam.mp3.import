@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/pabambam.mp3-bf25e26f20c3d7f80d95e9b68f8657c6.mp3str"
+
+[deps]
+
+source_file="res://Peklo Upeklo/music/pabambam.mp3"
+dest_files=[ "res://.import/pabambam.mp3-bf25e26f20c3d7f80d95e9b68f8657c6.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

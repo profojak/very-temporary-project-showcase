@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/pekloexistuje.mp3-ebe1128a62e33741e10267ab1158b92d.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/pekloexistuje.mp3"
+dest_files=[ "res://.import/pekloexistuje.mp3-ebe1128a62e33741e10267ab1158b92d.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

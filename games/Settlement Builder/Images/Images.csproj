@@ -1,0 +1,84 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Buildings\Camp.png" />
+    <None Remove="Images\Buildings\Hut.png" />
+    <None Remove="Images\Buildings\Lumber.png" />
+    <None Remove="Images\Buildings\Mine.png" />
+    <None Remove="Images\Buildings\Quarry.png" />
+    <None Remove="Images\Buildings\Sawmill.png" />
+    <None Remove="Images\Buildings\Tower.png" />
+    <None Remove="Images\Buildings\Windmill.png" />
+    <None Remove="Images\FoodIcon.png" />
+    <None Remove="Images\GoldIcon.png" />
+    <None Remove="Images\IronIcon.png" />
+    <None Remove="Images\Logo.png" />
+    <None Remove="Images\StoneIcon.png" />
+    <None Remove="Images\Tiles\Camp1.png" />
+    <None Remove="Images\Tiles\Empty.png" />
+    <None Remove="Images\Tiles\Empty1.png" />
+    <None Remove="Images\Tiles\Empty2.png" />
+    <None Remove="Images\Tiles\Empty3.png" />
+    <None Remove="Images\Tiles\Food1.png" />
+    <None Remove="Images\Tiles\Food2.png" />
+    <None Remove="Images\Tiles\Hut1.png" />
+    <None Remove="Images\Tiles\Iron1.png" />
+    <None Remove="Images\Tiles\Lumber1.png" />
+    <None Remove="Images\Tiles\Mine1.png" />
+    <None Remove="Images\Tiles\Quarry1.png" />
+    <None Remove="Images\Tiles\Sawmill1.png" />
+    <None Remove="Images\Tiles\Stone1.png" />
+    <None Remove="Images\Tiles\Stone2.png" />
+    <None Remove="Images\Tiles\Stone3.png" />
+    <None Remove="Images\Tiles\Tower1.png" />
+    <None Remove="Images\Tiles\Windmill1.png" />
+    <None Remove="Images\Tiles\Wood1.png" />
+    <None Remove="Images\Tiles\Wood2.png" />
+    <None Remove="Images\Tiles\Wood3.png" />
+    <None Remove="Images\WoodIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Buildings\Camp.png" />
+    <Resource Include="Images\Buildings\Hut.png" />
+    <Resource Include="Images\Buildings\Lumber.png" />
+    <Resource Include="Images\Buildings\Mine.png" />
+    <Resource Include="Images\Buildings\Quarry.png" />
+    <Resource Include="Images\Buildings\Sawmill.png" />
+    <Resource Include="Images\Buildings\Tower.png" />
+    <Resource Include="Images\Buildings\Windmill.png" />
+    <Resource Include="Images\Logo.png" />
+    <Resource Include="Images\ResourceItems\FoodIcon.png" />
+    <Resource Include="Images\ResourceItems\GoldIcon.png" />
+    <Resource Include="Images\ResourceItems\IronIcon.png" />
+    <Resource Include="Images\ResourceItems\StoneIcon.png" />
+    <Resource Include="Images\ResourceItems\WoodIcon.png" />
+    <Resource Include="Images\Tiles\Camp1.png" />
+    <Resource Include="Images\Tiles\Empty1.png" />
+    <Resource Include="Images\Tiles\Empty2.png" />
+    <Resource Include="Images\Tiles\Empty3.png" />
+    <Resource Include="Images\Tiles\Food1.png" />
+    <Resource Include="Images\Tiles\Food2.png" />
+    <Resource Include="Images\Tiles\Hut1.png" />
+    <Resource Include="Images\Tiles\Iron1.png" />
+    <Resource Include="Images\Tiles\Lumber1.png" />
+    <Resource Include="Images\Tiles\Mine1.png" />
+    <Resource Include="Images\Tiles\Quarry1.png" />
+    <Resource Include="Images\Tiles\Sawmill1.png" />
+    <Resource Include="Images\Tiles\Stone1.png" />
+    <Resource Include="Images\Tiles\Stone2.png" />
+    <Resource Include="Images\Tiles\Stone3.png" />
+    <Resource Include="Images\Tiles\Tower1.png" />
+    <Resource Include="Images\Tiles\Windmill1.png" />
+    <Resource Include="Images\Tiles\Wood1.png" />
+    <Resource Include="Images\Tiles\Wood2.png" />
+    <Resource Include="Images\Tiles\Wood3.png" />
+  </ItemGroup>
+
+</Project>

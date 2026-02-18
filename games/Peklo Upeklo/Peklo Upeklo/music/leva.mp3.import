@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/leva.mp3-c088b90b4ee11ce9ba39c0fb8f261569.mp3str"
+
+[deps]
+
+source_file="res://Peklo Upeklo/music/leva.mp3"
+dest_files=[ "res://.import/leva.mp3-c088b90b4ee11ce9ba39c0fb8f261569.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

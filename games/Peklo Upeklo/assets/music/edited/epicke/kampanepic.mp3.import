@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/kampanepic.mp3-dc218d146356f30ecb41ed28a25cd4ea.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/epicke/kampanepic.mp3"
+dest_files=[ "res://.import/kampanepic.mp3-dc218d146356f30ecb41ed28a25cd4ea.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

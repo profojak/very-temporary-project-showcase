@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/prosimneepic.mp3-abb6f1f1449489fa6d9d1c0155d30e1d.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/epicke/prosimneepic.mp3"
+dest_files=[ "res://.import/prosimneepic.mp3-abb6f1f1449489fa6d9d1c0155d30e1d.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/nechmeepic.mp3-662677c4bc0014e4519ceff3fad688ad.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/epicke/nechmeepic.mp3"
+dest_files=[ "res://.import/nechmeepic.mp3-662677c4bc0014e4519ceff3fad688ad.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

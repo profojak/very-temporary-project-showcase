@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/existujeepic.mp3-94d203e1ed7e09699eb8a412351b93ba.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/epicke/existujeepic.mp3"
+dest_files=[ "res://.import/existujeepic.mp3-94d203e1ed7e09699eb8a412351b93ba.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

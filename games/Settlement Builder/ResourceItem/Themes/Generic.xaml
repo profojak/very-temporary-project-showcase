@@ -1,0 +1,36 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:ResourceItem"
+    xmlns:img="clr-namespace:Images;assembly=Images">
+
+    <!-- Converter loading Image source from relative path (ResourceItems/FoodIcon.png) -->
+    <img:IconPathConverter x:Key="iconPathConverter"/>
+
+    <!-- Changing Button style to make Image act like a Button and assign a Command -->
+    <Style TargetType="{x:Type Button}" x:Key="ImageButtonStyle">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <ContentPresenter/>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- ResourceItem -->
+    <Style TargetType="{x:Type local:ResourceItem}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:ResourceItem}">
+                    <Button Style="{StaticResource ImageButtonStyle}" Command="{Binding ResourceItemClickCommand}">
+                        <StackPanel Height="70">
+                            <Image Height="35" DataContext="{TemplateBinding Icon}" Source="{Binding Converter={StaticResource iconPathConverter}}"/>
+                            <Label Content="{TemplateBinding Count}" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold"/>
+                        </StackPanel>
+                    </Button>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

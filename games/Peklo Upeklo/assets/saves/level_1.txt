@@ -1,0 +1,38 @@
+{
+	"items": [
+		["Track",   6],
+		["Lust",     2],
+		["Greed",    1]
+	],
+	"spawn_delay": 2,
+	"spawn_time": 1,
+	"cages": [
+		[10, ["Lust"]],
+		[6, ["Greed"]],
+		[3, ["Lust","Greed"]],
+	],
+	"targets": {
+		"min_sin_punished": [
+			["Lust", 3],
+			["Greed", 6]
+		],
+		"max_sin_failed": []
+	},
+	"disabled_tiles": [
+		[3,3],[3,2],[3,1],[3,0],
+		[4,3],[4,2],[4,1],[4,0],[4,4],
+		[2,3],[1,3],[0,3],
+		[3,4],[2,4],[1,4],[0,4]
+	],
+	"instructions": "Hello again! Welcome to your shift.
+
+This time, let me present you a little exception. Now you can get a sinner with multiple sins. That's right. You will have cages with more than one sin. Well don't look at me like that, get to it!
+
+You can expect:
+10 Lust
+6 Greed
+3 Lust + Greed
+You need to punish at least:
+3 Lust
+6 Greed"
+}

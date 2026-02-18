@@ -1,0 +1,38 @@
+{
+	"items": [
+		["Track",   10],
+		["Gluttony", 1],
+		["Sloth",    1],
+		["Wrath",    1]
+
+	],
+	"spawn_delay": 2,
+	"spawn_time": 2,
+	"cages": [
+		[6, ["Gluttony"]],
+		[6, ["Sloth"]],
+		[6, ["Wrath"]]
+	],
+	"targets": {
+		"min_sin_punished": [
+			["Gluttony", 3],
+			["Sloth", 3],
+			["Wrath", 3]
+		],
+		"max_sin_failed": []
+	},
+	"disabled_tiles": [
+		[3,3],[3,2],[3,1],[3,0],
+		[4,3],[4,2],[4,1],[4,0],[4,4],
+		[2,3],[1,3],[0,3],
+		[3,4],[2,4],[1,4],[0,4]
+	],
+	"instructions":"You have not failed! Wonderous! Now since you are not as useless as you look like, I will give you some more work. Here! Another sin for you to punish.
+
+You can expect:
+6 Gluttony
+6 Sloth
+6 Wrath
+You need to punish at least:
+3 of each"
+}

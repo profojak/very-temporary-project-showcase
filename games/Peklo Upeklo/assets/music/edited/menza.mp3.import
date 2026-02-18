@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/menza.mp3-aa39960ea533a402fba74336e089e045.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/menza.mp3"
+dest_files=[ "res://.import/menza.mp3-aa39960ea533a402fba74336e089e045.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

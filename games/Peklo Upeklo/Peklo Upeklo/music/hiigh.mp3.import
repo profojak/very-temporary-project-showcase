@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/hiigh.mp3-51149fb4491298c8662c2c2d4e01325c.mp3str"
+
+[deps]
+
+source_file="res://Peklo Upeklo/music/hiigh.mp3"
+dest_files=[ "res://.import/hiigh.mp3-51149fb4491298c8662c2c2d4e01325c.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,10 @@
+# Build directory
+JavaMaster/target
+JavaMaster/shade
+wiki
+
+# Intellij
+JavaMaster/.idea
+*.iml
+*.iws
+

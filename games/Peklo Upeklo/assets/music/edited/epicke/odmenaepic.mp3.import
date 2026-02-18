@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/odmenaepic.mp3-359ee72f760a638ef48afe354feaad66.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/epicke/odmenaepic.mp3"
+dest_files=[ "res://.import/odmenaepic.mp3-359ee72f760a638ef48afe354feaad66.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

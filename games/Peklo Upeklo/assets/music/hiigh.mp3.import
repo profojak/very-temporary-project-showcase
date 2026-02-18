@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/hiigh.mp3-763d55353895616dbee464e61d25f8cd.mp3str"
+
+[deps]
+
+source_file="res://assets/music/hiigh.mp3"
+dest_files=[ "res://.import/hiigh.mp3-763d55353895616dbee464e61d25f8cd.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

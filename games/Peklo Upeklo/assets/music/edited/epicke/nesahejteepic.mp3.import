@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/nesahejteepic.mp3-9c9c6dd14f60542be77aa51332a51023.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/epicke/nesahejteepic.mp3"
+dest_files=[ "res://.import/nesahejteepic.mp3-9c9c6dd14f60542be77aa51332a51023.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

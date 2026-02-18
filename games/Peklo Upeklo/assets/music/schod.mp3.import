@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/schod.mp3-8407eab25536a4d01e096dc304f8af70.mp3str"
+
+[deps]
+
+source_file="res://assets/music/schod.mp3"
+dest_files=[ "res://.import/schod.mp3-8407eab25536a4d01e096dc304f8af70.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

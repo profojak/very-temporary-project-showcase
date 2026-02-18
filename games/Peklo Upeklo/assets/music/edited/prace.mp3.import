@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/prace.mp3-c5bbaef5d2b05f58da8686de03a12e30.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/prace.mp3"
+dest_files=[ "res://.import/prace.mp3-c5bbaef5d2b05f58da8686de03a12e30.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

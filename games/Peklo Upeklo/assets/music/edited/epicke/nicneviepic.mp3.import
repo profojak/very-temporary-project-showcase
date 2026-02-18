@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/nicneviepic.mp3-4e2b7a54d41e8a4b56bdd46f6d34c8b4.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/epicke/nicneviepic.mp3"
+dest_files=[ "res://.import/nicneviepic.mp3-4e2b7a54d41e8a4b56bdd46f6d34c8b4.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

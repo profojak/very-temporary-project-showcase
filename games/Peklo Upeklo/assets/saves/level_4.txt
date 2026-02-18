@@ -1,0 +1,37 @@
+{
+	"items": [
+		["Track",   20],
+		["Lust",     1],
+		["Greed",    1],
+		["Wrath",    1],
+		["Sloth",     2],
+
+	],
+	"spawn_delay": 2,
+	"spawn_time": 2,
+	"cages": [
+		[6, 	["Lust","Greed"]],
+		[6,    	["Wrath","Sloth"]],
+		[3,    	["Sloth"]]
+	],
+	"targets": {
+		"min_sin_punished": [
+			["Sloth", 6],
+			["Lust", 6],
+			["Greed", 6],
+			["Wrath", 6]
+		],
+		"max_sin_failed": [	
+		]
+	},
+	"disabled_tiles": [
+		[4,0],
+		[0,4],
+	],
+	"instructions":"You can expect:
+6 Lust + Greed
+6 Wrath + Sloth
+3 Sloth
+You need to punish at least:
+6 of each"
+}

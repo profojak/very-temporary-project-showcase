@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/spook.mp3-83a4794a2a6ee00362ca4a97bbed5bb3.mp3str"
+
+[deps]
+
+source_file="res://Peklo Upeklo/music/spook.mp3"
+dest_files=[ "res://.import/spook.mp3-83a4794a2a6ee00362ca4a97bbed5bb3.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

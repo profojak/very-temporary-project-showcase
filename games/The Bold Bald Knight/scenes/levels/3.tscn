@@ -1,0 +1,34 @@
+[gd_scene load_steps=4 format=3 uid="uid://q31cjotvnoay"]
+
+[ext_resource type="Texture2D" uid="uid://cw1h4fhxta3i6" path="res://sprites/edges/edge_fence_6.png" id="1_7i6uk"]
+[ext_resource type="PackedScene" uid="uid://fgegla2d2due" path="res://scenes/archer.tscn" id="2_ppyrk"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ctgs1"]
+size = Vector3(0.17553711, 2.3911133, 6.4604797)
+
+[node name="3" type="Node3D"]
+
+[node name="Edge77" type="Sprite3D" parent="."]
+transform = Transform3D(1.4554521e-07, -3.3789285e-09, -0.9999999, 0.01409393, 1.3197188, 1.1249667e-09, 1.7035723, -0.010918249, 1.3411046e-07, -1.6855448, 9.590893, -95.23724)
+cast_shadow = 2
+flip_h = true
+texture_filter = 0
+texture = ExtResource("1_7i6uk")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.6600342, 9.585427, -95.21794)
+shape = SubResource("BoxShape3D_ctgs1")
+
+[node name="Archer" parent="." instance=ExtResource("2_ppyrk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.1081285, 13.334619, -49.62322)
+
+[node name="Archer2" parent="." instance=ExtResource("2_ppyrk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.304143, 8.39232, -49.150818)
+
+[node name="Archer3" parent="." instance=ExtResource("2_ppyrk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.188851, 10.974366, -95.315186)
+
+[node name="Archer4" parent="." instance=ExtResource("2_ppyrk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.2854004, 11.755982, -73.87173)

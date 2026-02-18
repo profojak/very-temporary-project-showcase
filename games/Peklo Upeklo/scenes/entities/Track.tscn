@@ -1,0 +1,74 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://scenes/entities/Track.gd" type="Script" id=1]
+[ext_resource path="res://assets/entities/tiles/Arrow.png" type="Texture" id=2]
+[ext_resource path="res://assets/entities/tiles/Up.png" type="Texture" id=3]
+[ext_resource path="res://assets/entities/tiles/Right.png" type="Texture" id=4]
+[ext_resource path="res://assets/entities/tiles/Down.png" type="Texture" id=5]
+[ext_resource path="res://assets/entities/tiles/Left.png" type="Texture" id=6]
+[ext_resource path="res://assets/entities/tiles/Junction.png" type="Texture" id=7]
+[ext_resource path="res://assets/entities/tiles/Base.png" type="Texture" id=8]
+
+[node name="Track" type="Node2D" groups=["Track"]]
+script = ExtResource( 1 )
+tracks_max = 4
+
+[node name="Parent" type="Node2D" parent="."]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Base" type="Sprite" parent="Parent"]
+z_index = 15
+texture = ExtResource( 8 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Up" type="Sprite" parent="Parent"]
+visible = false
+z_index = 15
+texture = ExtResource( 3 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Right" type="Sprite" parent="Parent"]
+visible = false
+z_index = 15
+texture = ExtResource( 4 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Down" type="Sprite" parent="Parent"]
+visible = false
+z_index = 15
+texture = ExtResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Left" type="Sprite" parent="Parent"]
+visible = false
+z_index = 15
+texture = ExtResource( 6 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Junction" type="Sprite" parent="."]
+visible = false
+position = Vector2( 0, -10 )
+z_index = 20
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Arrow" type="Sprite" parent="Junction"]
+position = Vector2( 0, -1 )
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}

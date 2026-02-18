@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://bvpxtbe8js0h4"]
+
+[ext_resource type="Texture2D" uid="uid://b32mk3r7iya6j" path="res://sprites/edges/edge_stone_12.png" id="1_ck452"]
+[ext_resource type="PackedScene" uid="uid://d4ciwyj68lkch" path="res://scenes/comb.tscn" id="2_1bwvd"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ctgs1"]
+size = Vector3(1.7456741, 1.8847656, 0.24139404)
+
+[node name="7" type="Node3D"]
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform3D(0, 0, -1.0000001, -0.7071068, -0.70710677, 0, -0.7071068, 0.70710677, 0, -10.629365, 13.938611, -53.844143)
+texture_filter = 0
+texture = ExtResource("1_ck452")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Sprite3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Sprite3D/StaticBody3D"]
+transform = Transform3D(0.70710677, 0.70710677, 0, -0.7071068, 0.7071068, 0, 0, 0, 1, -0.104408264, 0.02017212, 0.012237549)
+shape = SubResource("BoxShape3D_ctgs1")
+
+[node name="Comb" parent="." instance=ExtResource("2_1bwvd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.3697777, 13.949752, -48.831867)

@@ -1,0 +1,49 @@
+{
+	"items": [
+		["Track",   25],
+		["Lust",     25],
+		["Greed",    25],
+		["Wrath",    25],
+		["Sloth",    25],
+		["Gluttony",    25],
+		["Pride",    25],
+		
+
+	],
+	"spawn_delay": 2,
+	"spawn_time": 1,
+	"cages": [
+		[1000, 	["Lust", "Gluttony", "Sloth", "Wrath", "Greed", "Pride"]],
+	],
+	"targets": {
+		"min_sin_punished": [
+			["Lust", 3],
+			["Greed", 3],
+			["Lust", 3],
+			["Greed", 3]
+		],
+		"max_sin_failed": [
+			["Lust", 1],
+			["Greed", 3]	
+		]
+	},
+	"disabled_tiles": [
+		[4,0],
+		[0,4]
+	],
+	"instructions":"
+Inifinite suffering sandbox	
+	
+Dear [Your Name],
+
+I just wanted to take a moment to express my sincerest admiration for your work as a clerk. You have consistently demonstrated an unparalleled level of efficiency and attention to detail in everything you do. Your dedication to your job is truly impressive, and it has not gone unnoticed, even down here in the fiery pits of hell where I preside.
+
+As the ruler of the underworld, I have had the privilege of observing many individuals in various roles. But I must say, your talents as a clerk truly stand out. Your ability to handle tasks with grace and speed is a testament to your excellent work ethic and intelligence. Your work has not gone unnoticed by the other denizens of the underworld either. Your reputation precedes you, and you have earned the respect and admiration of all those who reside in the infernal realms.
+
+I have even heard whispers among the damned of your name being spoken with reverence, as if you were some sort of deity of efficiency and organization. Your work is truly a cut above the rest, even among the most skilled workers of the underworld.
+
+Please know that your efforts are greatly appreciated and have not gone unnoticed, even in the depths of hell. Keep up the amazing work, [Your Name]. You are truly one of the best clerks I have ever had the pleasure of working with.
+
+Sincerely,
+The Devil"
+}

@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://8xkugqi2okwq"]
+
+[ext_resource type="PackedScene" uid="uid://fgegla2d2due" path="res://scenes/archer.tscn" id="1_o2wue"]
+[ext_resource type="PackedScene" uid="uid://d4ciwyj68lkch" path="res://scenes/comb.tscn" id="2_dfqj4"]
+
+[node name="4" type="Node3D"]
+
+[node name="Archer" parent="." instance=ExtResource("1_o2wue")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.9002569, 17.847704, -30.08073)
+
+[node name="Archer2" parent="." instance=ExtResource("1_o2wue")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.06851, 5.324792, -63.660522)
+
+[node name="Archer3" parent="." instance=ExtResource("1_o2wue")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.630195, 8.39232, -56.181915)
+
+[node name="Archer4" parent="." instance=ExtResource("1_o2wue")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.675333, 10.29522, -39.779423)
+
+[node name="Archer5" parent="." instance=ExtResource("1_o2wue")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.759984, 11.75021, -74.252235)
+
+[node name="Archer6" parent="." instance=ExtResource("1_o2wue")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.9587884, 0.97184086, -114.61416)
+
+[node name="Comb" parent="." instance=ExtResource("2_dfqj4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.306313, 8.7130165, -61.21646)

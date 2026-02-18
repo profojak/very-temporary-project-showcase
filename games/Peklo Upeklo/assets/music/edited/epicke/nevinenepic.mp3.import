@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/nevinenepic.mp3-45adf463a0068e15c2867debbd7a8fab.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/epicke/nevinenepic.mp3"
+dest_files=[ "res://.import/nevinenepic.mp3-45adf463a0068e15c2867debbd7a8fab.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

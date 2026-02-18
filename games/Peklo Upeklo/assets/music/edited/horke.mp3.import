@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/horke.mp3-b270092772ac85d23f7f5499c8f612e2.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/horke.mp3"
+dest_files=[ "res://.import/horke.mp3-b270092772ac85d23f7f5499c8f612e2.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/dovolujeteepic.mp3-a7a97b033690cf7fe852b1e9d7f7852a.mp3str"
+
+[deps]
+
+source_file="res://assets/music/edited/epicke/dovolujeteepic.mp3"
+dest_files=[ "res://.import/dovolujeteepic.mp3-a7a97b033690cf7fe852b1e9d7f7852a.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
