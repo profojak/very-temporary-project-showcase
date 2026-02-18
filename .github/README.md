@@ -107,8 +107,8 @@ Caching for individual image inspection.
 ## Games
 
 <div align="center">
-  <a href="/graphics/Java%20Master%20the%20Legend%20of%20Segfault/">
-    <img src="/graphics/Java%20Master%20the%20Legend%20of%20Segfault/images/thumbnail.png" alt="Java Master the Legend of Segfault Thumbnail">
+  <a href="/games/Java%20Master%20the%20Legend%20of%20Segfault/">
+    <img src="/games/Java%20Master%20the%20Legend%20of%20Segfault/images/thumbnail.png" alt="Java Master the Legend of Segfault Thumbnail">
   </a>
 </div>
 
@@ -117,8 +117,8 @@ Grid-based exploratory movement, turn-based combat, inventory management system 
 
 <br>
 <div align="center">
-  <a href="/graphics/Fabulous%20Infinidrive%20of%20Good%20Old%20Felda/">
-    <img src="/graphics/Fabulous%20Infinidrive%20of%20Good%20Old%20Felda/images/thumbnail.png" alt="Fabulous Infinidrive of Good Old Felda Thumbnail">
+  <a href="/games/Fabulous%20Infinidrive%20of%20Good%20Old%20Felda/">
+    <img src="/games/Fabulous%20Infinidrive%20of%20Good%20Old%20Felda/images/thumbnail.png" alt="Fabulous Infinidrive of Good Old Felda Thumbnail">
   </a>
 </div>
 
@@ -128,8 +128,8 @@ Custom pseudo-3D rendering engine supporting road segment rotations.
 
 <br>
 <div align="center">
-  <a href="/graphics/Settlement%20Builder/">
-    <img src="/graphics/Settlement%20Builder/Images/thumbnail.png" alt="Settlement Builder Thumbnail">
+  <a href="/games/Settlement%20Builder/">
+    <img src="/games/Settlement%20Builder/Images/thumbnail.png" alt="Settlement Builder Thumbnail">
   </a>
 </div>
 
@@ -138,8 +138,8 @@ Model-View-ViewModel pattern, custom controls, data binding and commands.
 
 <br>
 <div align="center">
-  <a href="/graphics/Peklo%20Upeklo/">
-    <img src="/graphics/Peklo%20Upeklo/images/thumbnail.png" alt="Peklo Upeklo Thumbnail">
+  <a href="/games/Peklo%20Upeklo/">
+    <img src="/games/Peklo%20Upeklo/images/thumbnail.png" alt="Peklo Upeklo Thumbnail">
   </a>
 </div>
 
@@ -151,8 +151,8 @@ Procedural sprites, animations, and particles.
 
 <br>
 <div align="center">
-  <a href="/graphics/The%20Bold%20Bald%20Knight/">
-    <img src="/graphics/The%20Bold%20Bald%20Knight/images/thumbnail.png" alt="The Bold Bald Knight Thumbnail">
+  <a href="/games/The%20Bold%20Bald%20Knight/">
+    <img src="/games/The%20Bold%20Bald%20Knight/images/thumbnail.png" alt="The Bold Bald Knight Thumbnail">
   </a>
 </div>
 
@@ -161,8 +161,8 @@ Simple combat, item pick-ups, and cutscenes.
 
 <br>
 <div align="center">
-  <a href="/graphics/Vlkodlak/">
-    <img src="/graphics/Vlkodlak/images/thumbnail.png" alt="Vlkodlak Thumbnail">
+  <a href="/games/Vlkodlak/">
+    <img src="/games/Vlkodlak/images/thumbnail.png" alt="Vlkodlak Thumbnail">
   </a>
 </div>
 
@@ -170,8 +170,8 @@ Dungeon-crawler game jam game with a triangular grid for movement.
 
 <br>
 <div align="center">
-  <a href="/graphics/Elektrika/">
-    <img src="/graphics/Elektrika/images/thumbnail.png" alt="Elektrika Thumbnail">
+  <a href="/games/Elektrika/">
+    <img src="/games/Elektrika/images/thumbnail.png" alt="Elektrika Thumbnail">
   </a>
 </div>
 
