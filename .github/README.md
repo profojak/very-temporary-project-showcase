@@ -54,6 +54,18 @@ Clipping of triangles straddling the splitting plane.
 Pruning of empty child nodes.
 Stack-based recursive ray traversal.
 
+<br>
+<div align="center">
+  <a href="/graphics/CUDA%20Rasterizer/">
+    <img src="/graphics/CUDA%20Rasterizer/images/thumbnail.png" alt="CUDA Rasterizer Thumbnail">
+  </a>
+</div>
+
+Real-time CUDA software rasterizer with binning triangle sorting.
+View-frustum clipping, back-face and degenerate triangles culling.
+Blinn-Phong illumination model with robust non-uniform scaling of normals and per-pixel interpolation.
+Custom PowerShell build system.
+
 ## Games
 
 ## Other Stuff
