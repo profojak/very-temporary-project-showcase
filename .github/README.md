@@ -77,6 +77,33 @@ DirectX 11 vertex engine with asynchronous multi-threaded chunk generation.
 Automatically generated level of detail meshes from the voxels.
 Occlusion culling.
 
+<br>
+<div align="center">
+  <a href="/graphics/Flower%20OpenGL/">
+    <img src="/graphics/Flower%20OpenGL/images/thumbnail.png" alt="Flower OpenGL Thumbnail">
+  </a>
+</div>
+
+OpenGL interactive scene.
+Object picking via the stencil buffer.
+Multiple camera modes with seamless transitions.
+Distance-based exponential fog.
+Alpha blended transparency.
+Vertex displacement and texture-coordinate animations.
+Multiple light sources.
+Custom hierarchical scene graph loaded from a text file.
+
+<br>
+<div align="center">
+  <a href="/graphics/Neural%20Network%20Visualization/">
+    <img src="/graphics/Neural Network Visualization/images/thumbnail.png" alt="Neural Network Visualization Thumbnail">
+  </a>
+</div>
+
+Training process visualization of neural network for MNIST image classification.
+Four different dimensionality reducing embedding projections to 2D.
+Caching for individual image inspection.
+
 ## Games
 
 ## Other Stuff
