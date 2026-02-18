@@ -66,6 +66,17 @@ View-frustum clipping, back-face and degenerate triangles culling.
 Blinn-Phong illumination model with robust non-uniform scaling of normals and per-pixel interpolation.
 Custom PowerShell build system.
 
+<br>
+<div align="center">
+  <a href="/graphics/Voxel%20Renderer/">
+    <img src="/graphics/Voxel%20Renderer/images/thumbnail.png" alt="Voxel Renderer Thumbnail">
+  </a>
+</div>
+
+DirectX 11 vertex engine with asynchronous multi-threaded chunk generation.
+Automatically generated level of detail meshes from the voxels.
+Occlusion culling.
+
 ## Games
 
 ## Other Stuff
