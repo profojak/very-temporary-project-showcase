@@ -106,6 +106,77 @@ Caching for individual image inspection.
 
 ## Games
 
+<div align="center">
+  <a href="/graphics/Java%20Master%20the%20Legend%20of%20Segfault/">
+    <img src="/graphics/Java%20Master%20the%20Legend%20of%20Segfault/images/thumbnail.png" alt="Java Master the Legend of Segfault Thumbnail">
+  </a>
+</div>
+
+Retro-style dungeon crawler with a built-in level editor with support for multiple levels and serialization to plain-text files.
+Grid-based exploratory movement, turn-based combat, inventory management system with weapon upgrades.
+
+<br>
+<div align="center">
+  <a href="/graphics/Fabulous%20Infinidrive%20of%20Good%20Old%20Felda/">
+    <img src="/graphics/Fabulous%20Infinidrive%20of%20Good%20Old%20Felda/images/thumbnail.png" alt="Fabulous Infinidrive of Good Old Felda Thumbnail">
+  </a>
+</div>
+
+Retro-style web-based endless racing game.
+Template-based procedural generator of road sections with segment lengths, curvatures, elevation changes, lane configurations, and obstacles.
+Custom pseudo-3D rendering engine supporting road segment rotations.
+
+<br>
+<div align="center">
+  <a href="/graphics/Settlement%20Builder/">
+    <img src="/graphics/Settlement%20Builder/Images/thumbnail.png" alt="Settlement Builder Thumbnail">
+  </a>
+</div>
+
+Resource management settlement builder built on Windows Presentation Foundation framework.
+Model-View-ViewModel pattern, custom controls, data binding and commands.
+
+<br>
+<div align="center">
+  <a href="/graphics/Peklo%20Upeklo/">
+    <img src="/graphics/Peklo%20Upeklo/images/thumbnail.png" alt="Peklo Upeklo Thumbnail">
+  </a>
+</div>
+
+2D puzzle-strategy game with a planning and a routing phase.
+Grid-based level construction using tracks and processing station tiles.
+Custom level system.
+Dynamic audio engine.
+Procedural sprites, animations, and particles.
+
+<br>
+<div align="center">
+  <a href="/graphics/The%20Bold%20Bald%20Knight/">
+    <img src="/graphics/The%20Bold%20Bald%20Knight/images/thumbnail.png" alt="The Bold Bald Knight Thumbnail">
+  </a>
+</div>
+
+Quest-based game jam game with AI generated assets.
+Simple combat, item pick-ups, and cutscenes.
+
+<br>
+<div align="center">
+  <a href="/graphics/Vlkodlak/">
+    <img src="/graphics/Vlkodlak/images/thumbnail.png" alt="Vlkodlak Thumbnail">
+  </a>
+</div>
+
+Dungeon-crawler game jam game with a triangular grid for movement.
+
+<br>
+<div align="center">
+  <a href="/graphics/Elektrika/">
+    <img src="/graphics/Elektrika/images/thumbnail.png" alt="Elektrika Thumbnail">
+  </a>
+</div>
+
+2D drag-and-drop puzzle game jam game.
+
 ## Other Stuff
 
 <!-- Let's see if I get admitted into the Camp! Wish me luck!!! --------------->
