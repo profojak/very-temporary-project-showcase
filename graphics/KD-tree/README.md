@@ -1,6 +1,6 @@
 # kd-tree
 
-> kd-tree for ray tracing.
+> Spatial kd-tree data structure for ray tracing.
 > Surface area heuristic cost model with single-pass binning for finding the minimum cost split plane.
 > Clipping of triangles straddling the splitting plane.
 > Pruning of empty child nodes.
