@@ -1,0 +1,14 @@
+= Branch for Assignment #4
+
+== Instructions
+
+* Update `vector.h` to implement the `epc::vector` class template.
+* Update `config.mk` to choose the version of the {cpp} standard if necessary.
+
+IMPORTANT: Do not update any other existing files!
+
+* Check the result of the test program in _CI/CD Pipelines/Jobs_.
+* Compile `benchmark.cpp` and run it on a classroom computer.
+* Create a _merge request_ to indicate the final submission of your solution.
+
+NOTE: See _Course Pages_ for details.

@@ -1,0 +1,11 @@
+image: $CI_REGISTRY/ict/images/alpine/ci:latest
+
+main:
+    stage: test
+    script:
+        - apk add build-base
+        - apk add boost-dev
+        - make test        
+        - ./test --log_level=message --result_code=no 
+        - ./test --log_level=all --result_code=no 
+        

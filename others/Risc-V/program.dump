@@ -1,0 +1,49 @@
+
+executable:     file format elf32-littleriscv
+
+
+Disassembly of section .text:
+
+00000200 <__start>:
+ 200:	00000197          	auipc	gp,0x0
+ 204:	e0018193          	addi	gp,gp,-512 # 0 <__global_pointer$>
+ 208:	00001117          	auipc	sp,0x1
+ 20c:	08010113          	addi	sp,sp,128 # 1288 <__stack_end>
+ 210:	00000513          	addi	a0,zero,0
+ 214:	00000593          	addi	a1,zero,0
+ 218:	048000ef          	jal	ra,260 <main>
+
+0000021c <quit>:
+ 21c:	00000513          	addi	a0,zero,0
+ 220:	05d00893          	addi	a7,zero,93
+ 224:	00000073          	ecall
+
+00000228 <loop>:
+ 228:	00100073          	ebreak
+ 22c:	fe000ee3          	beq	zero,zero,228 <loop>
+
+00000230 <gcd>:
+ 230:	00050713          	addi	a4,a0,0
+ 234:	00058513          	addi	a0,a1,0
+ 238:	00070863          	beq	a4,zero,248 <gcd+0x18>
+ 23c:	00058793          	addi	a5,a1,0
+ 240:	00070513          	addi	a0,a4,0
+ 244:	00079463          	bne	a5,zero,24c <gcd+0x1c>
+ 248:	00008067          	jalr	zero,0(ra)
+ 24c:	00a7d663          	bge	a5,a0,258 <gcd+0x28>
+ 250:	40f50533          	sub	a0,a0,a5
+ 254:	ff9ff06f          	jal	zero,24c <gcd+0x1c>
+ 258:	40a787b3          	sub	a5,a5,a0
+ 25c:	fe9ff06f          	jal	zero,244 <gcd+0x14>
+
+00000260 <main>:
+ 260:	00402503          	lw	a0,4(zero) # 4 <__global_pointer$+0x4>
+ 264:	00802583          	lw	a1,8(zero) # 8 <__global_pointer$+0x8>
+ 268:	ff010113          	addi	sp,sp,-16
+ 26c:	00112623          	sw	ra,12(sp)
+ 270:	fc1ff0ef          	jal	ra,230 <gcd>
+ 274:	00c12083          	lw	ra,12(sp)
+ 278:	00a02623          	sw	a0,12(zero) # c <__global_pointer$+0xc>
+ 27c:	00000513          	addi	a0,zero,0
+ 280:	01010113          	addi	sp,sp,16
+ 284:	00008067          	jalr	zero,0(ra)

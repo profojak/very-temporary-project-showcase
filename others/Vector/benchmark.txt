@@ -1,0 +1,129 @@
+==========
+GCC run #1
+==========
+2025-12-10T14:36:34+01:00
+Running ./benchmark-gcc
+Run on (8 X 4100 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x4)
+  L1 Instruction 32 KiB (x4)
+  L2 Unified 256 KiB (x4)
+  L3 Unified 8192 KiB (x1)
+Load Average: 0.65, 0.56, 0.25
+***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+----------------------------------------------------------------------------------------------
+Benchmark                                                    Time             CPU   Iterations
+----------------------------------------------------------------------------------------------
+test<std::vector<value_type>>                            43118 ns        43107 ns        16244
+test<epc::vector<value_type, 8>>                         20002 ns        20001 ns        34819
+test<boost::container::small_vector<value_type, 8>>      19981 ns        19977 ns        35123
+test<llvm::SmallVector<value_type, 8>>                   23736 ns        23734 ns        29473
+==========
+GCC run #2
+==========
+025-12-10T14:37:57+01:00
+Running ./benchmark-gcc
+Run on (8 X 4100 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x4)
+  L1 Instruction 32 KiB (x4)
+  L2 Unified 256 KiB (x4)
+  L3 Unified 8192 KiB (x1)
+Load Average: 0.30, 0.48, 0.25
+***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+----------------------------------------------------------------------------------------------
+Benchmark                                                    Time             CPU   Iterations
+----------------------------------------------------------------------------------------------
+test<std::vector<value_type>>                            42994 ns        42989 ns        16386
+test<epc::vector<value_type, 8>>                         20024 ns        20022 ns        35019
+test<boost::container::small_vector<value_type, 8>>      20035 ns        20033 ns        34972
+test<llvm::SmallVector<value_type, 8>>                   23777 ns        23770 ns        29323
+==========
+GCC run #3
+==========
+2025-12-10T14:38:03+01:00
+Running ./benchmark-gcc
+Run on (8 X 4100 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x4)
+  L1 Instruction 32 KiB (x4)
+  L2 Unified 256 KiB (x4)
+  L3 Unified 8192 KiB (x1)
+Load Average: 0.36, 0.48, 0.26
+***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+----------------------------------------------------------------------------------------------
+Benchmark                                                    Time             CPU   Iterations
+----------------------------------------------------------------------------------------------
+test<std::vector<value_type>>                            43037 ns        43026 ns        16351
+test<epc::vector<value_type, 8>>                         19951 ns        19949 ns        35054
+test<boost::container::small_vector<value_type, 8>>      19933 ns        19931 ns        34957
+test<llvm::SmallVector<value_type, 8>>                   23733 ns        23730 ns        29458
+
+
+
+============
+Clang run #1
+============
+2025-12-10T14:38:42+01:00
+Running ./benchmark-clang
+Run on (8 X 4100 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x4)
+  L1 Instruction 32 KiB (x4)
+  L2 Unified 256 KiB (x4)
+  L3 Unified 8192 KiB (x1)
+Load Average: 0.41, 0.48, 0.27
+***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+----------------------------------------------------------------------------------------------
+Benchmark                                                    Time             CPU   Iterations
+----------------------------------------------------------------------------------------------
+test<std::vector<value_type>>                            45983 ns        45984 ns        15193
+test<epc::vector<value_type, 8>>                         20443 ns        20443 ns        34183
+test<boost::container::small_vector<value_type, 8>>      22815 ns        22814 ns        30732
+test<llvm::SmallVector<value_type, 8>>                   23721 ns        23722 ns        29533
+============
+Clang run #2
+============
+2025-12-10T14:38:47+01:00
+Running ./benchmark-clang
+Run on (8 X 4100 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x4)
+  L1 Instruction 32 KiB (x4)
+  L2 Unified 256 KiB (x4)
+  L3 Unified 8192 KiB (x1)
+Load Average: 0.46, 0.49, 0.27
+***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+----------------------------------------------------------------------------------------------
+Benchmark                                                    Time             CPU   Iterations
+----------------------------------------------------------------------------------------------
+test<std::vector<value_type>>                            46435 ns        46434 ns        15257
+test<epc::vector<value_type, 8>>                         20589 ns        20586 ns        34237
+test<boost::container::small_vector<value_type, 8>>      22771 ns        22772 ns        30721
+test<llvm::SmallVector<value_type, 8>>                   23887 ns        23883 ns        29500
+============
+Clang run #3
+============
+2025-12-10T14:38:52+01:00
+Running ./benchmark-clang
+Run on (8 X 4100 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x4)
+  L1 Instruction 32 KiB (x4)
+  L2 Unified 256 KiB (x4)
+  L3 Unified 8192 KiB (x1)
+Load Average: 0.50, 0.50, 0.28
+***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+----------------------------------------------------------------------------------------------
+Benchmark                                                    Time             CPU   Iterations
+----------------------------------------------------------------------------------------------
+test<std::vector<value_type>>                            46198 ns        46197 ns        15199
+test<epc::vector<value_type, 8>>                         21501 ns        21501 ns        34304
+test<boost::container::small_vector<value_type, 8>>      23848 ns        23846 ns        28922
+test<llvm::SmallVector<value_type, 8>>                   25912 ns        25911 ns        29096
